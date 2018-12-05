@@ -1,0 +1,53 @@
+/*
+* Sydney Kwiatkowski
+* December 5, 2018
+* Girl Develop It 
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* color to match logo */
+
+body {
+background-color:#F7C3D6;
+}
+
+header { 
+background-color:#E76A6A; 
+    text-align: center;
+}
+/* img of the logo */ 
+#girldevelopit {width:550px; height:130px; }
+
+h1 { font-family: cursive;
+     text-decoration: underline; 
+     font-size: 150%; 
+     text-align: left;
+}
+
+/* adjustment of text */
+p { font-family: sans-serif;
+     font-size: 140%; 
+     text-align: left;
+}
+
+h2 { font-family: cursive;
+     text-decoration: underline;
+     font-size: 150%;
+     text-align: left;
+}
+
+/* img og the images */
+#girlswithlaptops {
+    float: right;}
+#computer {
+    float: right;}
+
+/* hover pink over links */
+a:link { color: blue;}
+a:hover, a:focus {color: fuchsia;
+        font-size: 150%; }
